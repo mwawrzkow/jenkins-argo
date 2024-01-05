@@ -1,0 +1,6 @@
+apiVersion: v2
+name: Jenkins
+description: A Helm chart for Jenkins with longhorn
+type: application
+version: 0.1.0
+appVersion: "2.289.1" 

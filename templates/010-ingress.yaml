@@ -20,6 +20,11 @@ spec:
             name: jenkins-service
             port:
               number: 8080 
-            name: jenkins-jnlp
+      -path: /jnlp
+        pathType: Prefix
+        backend:
+          service:
+            name: jenkins-service
             port:
               number: 50000
+            

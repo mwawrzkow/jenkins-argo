@@ -20,7 +20,7 @@ spec:
             name: jenkins-service
             port:
               number: 8080 
-  -host: jpnlp.k8s.com
+  - host: jpnlp.k8s.com
     http:
       paths:
       - path: /

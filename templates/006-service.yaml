@@ -10,5 +10,7 @@ spec:
   ports:
     - port: 8080
       targetPort: 8080
+      name: httpport
     - port: 50000
       targetPort: 50000
+      name: jnlpport

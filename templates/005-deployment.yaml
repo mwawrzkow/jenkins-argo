@@ -12,6 +12,7 @@ spec:
     metadata:
       labels:
         app: jenkins-server
+        namespace: devops-tools
     spec:
       securityContext:
             fsGroup: 1000 
